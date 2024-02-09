@@ -15,12 +15,10 @@ Deve ter o construtor e os métodos getters e setters.
 Criar a classe Alimento, herdeira de Produto
 int quantVitamina /* quantidade de vitaminas */
 Deve ter o construtor.
-
 E deve implementar o método getValorTributo( ), que calcula o imposto de ICMS sobre o
 alimento, que é 15% do preço do alimento.
 
 Criar a classe Perfume, herdeira de Produto
-
 String fragrancia /* fragrância do perfume */
 Deve ter o construtor.
 E deve implementar o método getValorTributo( ), que calcula o imposto de ICMS sobre o
@@ -34,21 +32,16 @@ E deve implementar o método getValorTributo( ), que calcula o imposto de ISS so
 serviço, que é 12% do preço do serviço.
 
 Criar a classe Tributo , que tem como atributos:
-
 ArrayList<Tributavel> listaTrib; /* arrayList de itens tributáveis */
 O construtor da classe Tributo cria o objeto correspondente ao ArrayList trib.
 A classe Tributo deve ter os métodos:
-
 adicionaTributavel(Tributavel t) /* adiciona um item tributável no array de
- tributáveis */
- 
+ tributáveis */ 
 double calculaTotalTributo( ) /* calcula o total dos tributos dos itens
  armazenados */
- 
 void exibeTodos( ) /* exibe todos os itens armazenados na lista de tributáveis */
 
 Criar a classe TestaTributo que terá o método main
-
 Crie um objeto do tipo Alimento e inicialize seus atributos.
 Crie um objeto do tipo Perfume e inicialize seus atributos.
 Crie um objeto do tipo Servico e inicialize seus atributos.
